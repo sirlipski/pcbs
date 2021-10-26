@@ -927,4 +927,15 @@ F 3 "" H 5600 1050 50  0001 C CNN
 $EndComp
 Text GLabel 3150 5150 2    50   Input ~ 0
 SWDIO
+$Comp
+L Amplifier_Audio:IR4311 U?
+U 1 1 6178C46D
+P 10100 5400
+F 0 "U?" H 10100 6381 50  0000 C CNN
+F 1 "IR4311" H 10100 6290 50  0000 C CNN
+F 2 "Package_DFN_QFN:Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm" H 10100 5400 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/ir4301.pdf?fileId=5546d462533600a4015355d5fc691819" H 10100 5400 50  0001 C CNN
+	1    10100 5400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
